@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+}
+
+nav {
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: 100px;
+    margin: 10px auto;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.bar {
+    position: relative;
+}
+
+.logo img {
+    width: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 25px;
+    left: 60px;
+}
+.liste ul li {
+    list-style-type: none;
+    display: inline;
+    font-size: 20px;
+    margin: 5px;
+    backdrop-filter: b;
+}
+
+.liste ul {
+    width: 350px;
+    background: rgb(255, 255, 255, 0.5);
+    position: absolute;
+    top: 25px;
+    right: 100px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+.liste a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    background: linear-gradient(90deg, white, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a:active {
+    color: gold;
+}
+
+.about {
+    border: 5px double black;
+    border-radius: 8px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+div h2 {
+    text-align: center;
+}
+
+.gallery {
+margin: auto;
+text-align: center;
+}
+
+.gallery img {
+    float: left;
+    margin-left: 20px;
+    width: calc((100% - 80px)/3);
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+.about p {
+    text-align: center;
+}
+
+.flex {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.about button {
+    width: 80px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+.about .wathsapp {
+    background-color: green;
+}
+.about .facebook {
+    background-color: #0866ff;
+}
+.about .instagram { 
+    background-color: #df4a1d;
+}
+
+.social {
+    text-align: center;
+}
