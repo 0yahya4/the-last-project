@@ -177,7 +177,7 @@ form {
 }
 
 .send {
-    background-color: rgb(79, 197, 79);
+    background-color: rgb(77, 177, 77);
     outline: none;
     border: none;
     border-radius: 5px;
@@ -186,5 +186,7 @@ form {
     color: white;
     display: inline-block;
     margin-left: 4.5%;
+}.send:hover {
+    background-color: green;
 }
 
