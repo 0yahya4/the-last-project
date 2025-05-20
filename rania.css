@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    background-color: rgb(241, 241, 241);
+}
+
+.black {
+    background-color: black;
+    width: 100%;
+    height: 40px;
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    border-bottom: 1px solid gray;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+.logo img {
+    width: 70px;
+    position: absolute;
+    top: 22px;
+    left: 50px;
+}
+.liste ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+}
+.liste ul {
+    position: absolute;
+    top: 15px;
+    right: 50px;
+}
+.liste a {
+    text-decoration: none;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: gray;
+}
+
+.reksi {
+    background-color: transparent;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.reksi h1 {
+    text-align: center;
+    font-size: 200px;
+    position: absolute;
+    bottom: -30px;
+    left: 370px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5); 
+}
+.reksi h1:hover {
+    transform: scale(1.1);
+}
+
+
+.carte1 {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+.carte1 img {
+    width: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.carte1 img:hover {
+    transform: scale(1.05);
+}
+.carte1 pre {
+    text-align: center;
+    font-size: 17px;
+}
+.carte1 h3 {
+    text-align: center;
+    font-size: 22px;
+}
+.carte1 button {
+    border: 1px solid gray;
+    width: 145px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 13px;
+    display: block;
+    margin: auto;
+    background-color: transparent
+}
+.carte1 button:hover {
+    color: black;
+    background-color: rgb(241, 241, 241);
+}
+
+.carte2 {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+.carte2 img {
+    width: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.carte2 img:hover {
+    transform: scale(1.05);
+}
+.carte2 pre {
+    text-align: center;
+    font-size: 17px;
+}
+.carte2 h3 {
+    text-align: center;
+    font-size: 22px;
+}
+.carte2 button {
+    border: 1px solid gray;
+    width: 145px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 13px;
+    display: block;
+    margin: auto;
+    background-color: transparent
+}
+.carte2 button:hover {
+    color: black;
+    background-color: rgb(241, 241, 241);
+}
+
+.carte3 {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+.carte3 img {
+    width: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.carte3 img:hover {
+    transform: scale(1.05);
+}
+.carte3 pre {
+    text-align: center;
+    font-size: 17px;
+}
+.carte3 h3 {
+    text-align: center;
+    font-size: 22px;
+}
+.carte3 button {
+    border: 1px solid gray;
+    width: 145px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 13px;
+    display: block;
+    margin: auto;
+    background-color: transparent
+}
+.carte3 button:hover {
+    color: black;
+    background-color: rgb(241, 241, 241);
+}
+.flex {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.space {
+    background-color: transparent;
+    width: 100%;
+    height: 200px;
+}
+
+.inforamtion {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.flex1 {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    position: absolute;
+    bottom: 60px;
+    left: 100px;
+}
+ 
+.a, .b, .c, .d {
+    color: white;
+    text-align: center;
+}
+.inforamtion h3 {
+    color: rgb(230, 178, 48);
+}
